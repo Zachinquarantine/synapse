@@ -21,7 +21,7 @@
 import json
 from urllib import parse as urlparse
 
-from mock import Mock
+from unittest.mock import Mock
 
 import synapse.rest.admin
 from synapse.api.constants import EventContentFields, EventTypes, Membership
