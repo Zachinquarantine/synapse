@@ -19,9 +19,8 @@
 """Tests REST events for /rooms paths."""
 
 import json
-from urllib import parse as urlparse
-
 from unittest.mock import Mock
+from urllib import parse as urlparse
 
 import synapse.rest.admin
 from synapse.api.constants import EventContentFields, EventTypes, Membership
